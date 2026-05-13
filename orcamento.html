@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicite um Orçamento - GreenHub Condomínios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="LOGO_novo.png" alt="GreenHub Logo" class="logo-img">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">HOME</a>
+                <a href="sobre-nos.html">SOBRE NÓS</a>
+                <a href="parceiros.html">PARCEIROS</a>
+                <a href="consultas.html">CONSULTAS</a>
+                <a href="contato.html">CONTATO</a>
+            </nav>
+            <a href="orcamento.html" class="btn">SOLICITE UM ORÇAMENTO</a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Solicite um Orçamento</h1>
+            <p>Dê o primeiro passo para um condomínio mais sustentável e econômico.</p>
+        </div>
+    </div>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="budget-container">
+                <div class="budget-info">
+                    <h2>Economia e Sustentabilidade para seu Condomínio</h2>
+                    <p>Preencha o formulário com os dados do seu condomínio. Nossa equipe fará uma análise preliminar e entrará em contato com uma proposta personalizada, demonstrando a viabilidade e o tempo de retorno do investimento (payback).</p>
+                    <ul class="benefits-list">
+                        <li><i class="fa-solid fa-check"></i> Análise personalizada</li>
+                        <li><i class="fa-solid fa-check"></i> Redução na conta de luz</li>
+                        <li><i class="fa-solid fa-check"></i> Valorização do imóvel</li>
+                        <li><i class="fa-solid fa-check"></i> Suporte especializado</li>
+                    </ul>
+                </div>
+                
+                <div class="budget-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="condo_name">Nome do Condomínio</label>
+                            <input type="text" id="condo_name" name="condo_name" placeholder="Ex: Condomínio Residencial Flores" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="units">Número de Unidades/Apartamentos</label>
+                                <input type="number" id="units" name="units" placeholder="Ex: 40" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="average_bill">Valor médio da conta de luz (R$)</label>
+                                <input type="number" id="average_bill" name="average_bill" placeholder="Ex: 2500" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact_name">Nome do Contato (Síndico/Admin)</label>
+                            <input type="text" id="contact_name" name="contact_name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">WhatsApp / Telefone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="details">Detalhes adicionais (Opcional)</label>
+                            <textarea id="details" name="details" rows="3" placeholder="Existe área de telhado disponível? Tem interesse em carregadores veiculares?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">Solicitar Orçamento Gratuito</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-inner">
+            <div class="contact-info">
+                <h3>CONTATO</h3>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+55 (31) 98282-0700</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contato@greenhubcondominios.br</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

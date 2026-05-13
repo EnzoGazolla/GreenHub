@@ -576,40 +576,49 @@ footer {
 
 /* COMPACT MOBILE LAYOUT */
 @media (max-width: 768px) {
-  /* Header & Navigation */
+  /* Fix Header Overlap */
+  header {
+    position: relative;
+    background: #fff;
+    padding: 20px 0;
+  }
+
   .logo-img {
     height: 45px;
   }
   
   nav.main-nav {
-    gap: 15px;
-    flex-direction: column;
-    align-items: center;
+    gap: 10px 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
   }
 
   nav.main-nav a {
     font-size: 13px;
-    padding: 10px 0;
-    width: 100%;
+    padding: 5px 8px;
+    width: auto;
     text-align: center;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 2px solid transparent;
   }
   
   nav.main-nav a:hover,
   nav.main-nav a.active {
-    border-bottom: 1px solid var(--primary-green);
+    border-bottom: 2px solid var(--primary-green);
   }
 
   /* Hero Section */
   .hero {
-    min-height: 500px;
+    min-height: 450px;
+    height: auto;
     background-position: center left;
+    padding-bottom: 50px;
   }
   
   .hero-content {
     padding: 30px 20px;
-    margin-top: 50px;
+    margin-top: 30px; /* Reduced since header is no longer absolute */
     max-width: 100%;
   }
   
@@ -624,7 +633,7 @@ footer {
 
   /* Overlap Cards */
   .cards-section {
-    margin-top: -50px;
+    margin-top: -30px;
     padding-bottom: 40px;
   }
   
@@ -644,8 +653,8 @@ footer {
 
   /* Internal Pages Headers */
   .page-header {
-    padding-top: 130px;
-    padding-bottom: 40px;
+    padding-top: 50px; /* Reduced since header is no longer absolute */
+    padding-bottom: 50px;
   }
   
   .page-header h1 {

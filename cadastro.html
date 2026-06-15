@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - GreenHub Condomínios</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="LOGO_novo.png" alt="GreenHub Logo" class="logo-img">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <a href="index.html">HOME</a>
+                <a href="sobre-nos.html">SOBRE NÓS</a>
+                <a href="parceiros.html">PARCEIROS</a>
+                <a href="consultas.html">CONSULTAS</a>
+                <a href="cadastro.html" class="active">CADASTRO</a>
+                <a href="contato.html">CONTATO</a>
+            </nav>
+            <a href="orcamento.html" class="btn">SOLICITE UM ORÇAMENTO</a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Cadastro de Condomínio</h1>
+            <p>Cadastre seu condomínio para acessar a plataforma GreenHub.</p>
+        </div>
+    </div>
+
+    <section class="page-content">
+        <div class="container">
+            <div class="budget-container" style="max-width: 800px; margin: 0 auto;">
+                <div class="budget-info" style="text-align: center; margin-bottom: 30px;">
+                    <h2>Crie sua conta</h2>
+                    <p>Ao se cadastrar, você terá acesso a um painel exclusivo para gerenciar seus créditos de energia
+                        solar, visualizar relatórios de economia e administrar as unidades do seu condomínio de forma
+                        simples e transparente.</p>
+                </div>
+
+                <div class="budget-form-container">
+                    <form class="contact-form" action="#" method="get">
+                        <div class="form-group">
+                            <label for="sindico">Nome do Síndico / Responsável</label>
+                            <input type="text" id="sindico" name="sindico" placeholder="Nome completo" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="condominio">Nome do Condomínio</label>
+                                <input type="text" id="condominio" name="condominio"
+                                    placeholder="Ex: Residencial Parque" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cnpj">CNPJ do Condomínio</label>
+                                <input type="text" id="cnpj" name="cnpj" placeholder="XX.XXX.XXX/XXXX-XX" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="E-mail de acesso" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone / WhatsApp</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(XX) XXXXX-XXXX" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="unidades">Número de Unidades / Apartamentos</label>
+                            <input type="number" id="unidades" name="unidades" placeholder="Ex: 50" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="password" id="senha" name="senha" placeholder="Crie uma senha segura"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirma-senha">Confirmar Senha</label>
+                                <input type="password" id="confirma-senha" name="confirma-senha"
+                                    placeholder="Repita a senha" required>
+                            </div>
+                        </div>
+                        <div style="display: flex; gap: 15px;">
+                            <button type="button" class="btn btn-submit" style="flex: 1;"
+                                onclick="alert('Cadastro realizado com sucesso! (Simulação)')">Finalizar
+                                Cadastro</button>
+                            <button type="button" class="btn btn-submit"
+                                style="flex: 1; background-color: var(--dark-green, #1B4332);"
+                                onclick="alert('Página de listagem de condomínios cadastrados (Em construção)')">Ver
+                                Condomínios Cadastrados</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <div class="container footer-inner">
+            <div class="contact-info">
+                <h3>CONTATO</h3>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+55 (31) 98282-0700</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>contato@greenhubcondominios.br</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

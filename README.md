@@ -6,9 +6,10 @@
 Professor: Keila Rodrigues de Moraes
 
 - **Aline Borges Nascimento** - Product Owner (PO) e Scrum Master (SM)
-- **Enzo Nagano** e **Rodrigo Madeira** - DBA / Analistas de Desenvolvimento (Front/Back)
+- **Enzo Gazolla Nagano** e **Rodrigo Madeira** - DBA / Analistas de Desenvolvimento (Front/Back)
 - **Pedro Albuquerque** - Desenvolvedor (Dev Team)
 - **Pedro Cezar Pires Henriques** - Arquiteto de Software (Front/Back)
+
 
 ## GreenHub
 **Plataforma de Gestão Sustentável Integrada para condomínios residenciais.**
